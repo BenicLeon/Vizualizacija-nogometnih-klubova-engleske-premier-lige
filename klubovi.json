@@ -1,0 +1,347 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+  
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Amex%20Stadium",
+        "name": "Amex Stadium",
+        "team": "Brighton and Hove Albion",
+        "capacity": 22374,
+        "alsoKnownAs": "Falmer Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08014000207185745,
+          50.86090087890625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Anfield",
+        "name": "Anfield",
+        "team": "Liverpool",
+        "capacity": 45522
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9609599113464355,
+          53.43080139160156
+        ]
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Bramall%20Lane",
+        "name": "Bramall Lane",
+        "team": "Sheffield United",
+        "capacity": 32702
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.470829963684082,
+          53.37030029296875
+        ]
+      }
+    },
+
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Carrow%20Road",
+        "name": "Carrow Road",
+        "team": "Norwich City",
+        "capacity": 27033
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3091200590133667,
+          52.622100830078125
+        ]
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Emirates%20Stadium",
+        "name": "Emirates Stadium",
+        "team": "Arsenal",
+        "capacity": 60361
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.10843600332736969,
+          51.554901123046875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Etihad%20Stadium",
+        "name": "Etihad Stadium",
+        "team": "Manchester City",
+        "capacity": 47805
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.200239896774292,
+          53.483001708984375
+        ]
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=King%20Power%20Stadium",
+        "name": "King Power Stadium",
+        "team": "Leicester City",
+        "capacity": 32262
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1421699523925781,
+          52.62030029296875
+        ]
+      }
+    },
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=London%20Stadium",
+        "name": "London Stadium",
+        "team": "West Ham",
+        "capacity": 60000,
+        "alsoKnownAs": "Olympic Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.016587000340223312,
+          51.538299560546875
+        ]
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Molineux",
+        "name": "Molineux",
+        "team": "Wolverhampton Wanderers",
+        "capacity": 27828
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1306099891662598,
+          52.59040069580078
+        ]
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Old%20Trafford",
+        "name": "Old Trafford",
+        "team": "Manchester United",
+        "capacity": 75811
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2913899421691895,
+          53.46310043334961
+        ]
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Selhurst%20Park",
+        "name": "Selhurst Park",
+        "team": "Crystal Palace",
+        "capacity": 26309
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08545500040054321,
+          51.39830017089844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Seward%20Stadium",
+        "name": "Seward Stadium",
+        "team": "Bournemouth",
+        "capacity": 10700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8383899927139282,
+          50.735198974609375
+        ]
+      }
+    },
+   
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=St%20James%20Park",
+        "name": "St James Park",
+        "team": "Newcastle United",
+        "capacity": 52387,
+        "alsoKnownAs": "Sports Direct Arena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6217900514602661,
+          54.97560119628906
+        ]
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=St%20Mary%27s%20Stadium",
+        "name": "St Mary's Stadium",
+        "team": "Southampton",
+        "capacity": 32689
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3911399841308594,
+          50.905799865722656
+        ]
+      }
+    },
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Stamford%20Bridge",
+        "name": "Stamford Bridge",
+        "team": "Chelsea",
+        "capacity": 41837
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1910340040922165,
+          51.48160171508789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Goodison%20Park",
+        "name": "Goodison Park",
+        "team": "Everton",
+        "capacity": 40157
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9661900997161865,
+          53.43870162963867
+        ]
+      }
+    },
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Tottenham%20Hotspur%20Stadium",
+        "name": "Tottenham Hotspur Stadium",
+        "team": "Tottenham Hotspur",
+        "capacity": 62303
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.06638900190591812,
+          51.604400634765625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Vicarage%20Road",
+        "name": "Vicarage Road",
+        "team": "Watford",
+        "capacity": 17477
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4015690088272095,
+          51.64979934692383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Turf%20Moor",
+        "name": "Turf Moor",
+        "team": "Burnley",
+        "capacity": 22546
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.230180025100708,
+          53.78879928588867
+        ]
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Villa%20Park",
+        "name": "Villa Park",
+        "team": "Aston Villa",
+        "capacity": 42788
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8850799798965454,
+          52.50920104980469
+        ]
+      }
+    }
+  ]
+}
