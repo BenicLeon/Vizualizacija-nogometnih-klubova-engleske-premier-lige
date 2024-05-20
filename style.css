@@ -1,0 +1,67 @@
+body {
+    background-color: #000;
+}
+
+
+#barChart {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+.bar:hover {
+    fill: lightcoral;
+}
+
+.axis {
+    font-size: 12px;
+    fill: white; 
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: white;
+    shape-rendering: crispEdges;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+#chartTitle {
+    text-anchor: middle;
+    font-size: 18px;
+    fill: white;
+}
+
+select{
+background-color: white;
+border-radius: 3px;
+padding: 0.2em 0.5em;
+font-size: 1em;
+cursor: pointer;
+margin-left: 0.5em;
+border: 2px solid #2196F3;
+color: #007bff;
+}
+
+#stadiumInfo {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+}
