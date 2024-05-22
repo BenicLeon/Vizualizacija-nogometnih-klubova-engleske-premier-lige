@@ -1,28 +1,71 @@
-body {
-    background-color: #000;
+body{
+    background-color:rgba(0, 0, 0, 0.1) ;
 }
-
-
+#container{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#navbar{
+  position: fixed;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color:#007bff;
+  font-family: 'Exo 2', sans-serif;
+  padding: 1em 2em;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+ 
+}
+select{
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.2em 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 0.5em;
+    border: 2px solid;
+    border-color: #007bff;
+    color: #007bff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    h1 {
+        margin: 0; 
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Premier League', sans-serif; 
+        
+      }
+     #svg-container{
+        border: 2px solid;
+        border-color: #007bff;
+        border-radius: 10px;
+        margin-top: 4em;
+        background-color: white;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+     }
 #barChart {
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
-
-
 .bar:hover {
-    fill: lightcoral;
+    fill: #007bff;
 }
 
+
 .axis {
-    font-size: 12px;
-    fill: white; 
+    font-size: 1em;
+    fill: black; 
 }
 
 .axis path,
 .axis line {
     fill: none;
-    stroke: white;
+    stroke: black;
     shape-rendering: crispEdges;
 }
 
@@ -36,23 +79,14 @@ body {
     pointer-events: none;
     opacity: 0;
     transition: opacity 0.3s;
+    border: 2px solid #007bff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 #chartTitle {
     text-anchor: middle;
     font-size: 18px;
-    fill: white;
-}
-
-select{
-background-color: white;
-border-radius: 3px;
-padding: 0.2em 0.5em;
-font-size: 1em;
-cursor: pointer;
-margin-left: 0.5em;
-border: 2px solid #2196F3;
-color: #007bff;
+    fill: black;
 }
 
 #stadiumInfo {
@@ -61,7 +95,10 @@ color: #007bff;
     left: 10px;
     padding: 10px;
     background-color: white;
-    border: 1px solid black;
+    border: 2px solid #007bff;
     opacity: 0;
     transition: opacity 0.5s, transform 0.5s;
+    color: #007bff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
 }
