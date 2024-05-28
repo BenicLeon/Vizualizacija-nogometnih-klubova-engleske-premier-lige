@@ -87,6 +87,13 @@ function drawMap() {
             });
 
             lazyLoadImages();
+            var zoom = d3.zoom()
+            .scaleExtent([1, 8])
+            .on("zoom", function () {
+                mapSvg.attr("transform", d3.event.transform);
+            });
+
+        mapSvg.call(zoom);
         });
     });
 }

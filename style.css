@@ -1,26 +1,29 @@
-body{
-    background-color:rgba(0, 0, 0, 0.1) ;
+body {
+    background-color: rgba(0, 0, 0, 0.1);
 }
-#container{
-display: flex;
-justify-content: center;
-align-items: center;
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#navbar{
-  position: fixed;
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color:#007bff;
-  font-family: 'Exo 2', sans-serif;
-  padding: 1em 2em;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
- 
+
+#navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #007bff;
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em 2em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+
 }
-select{
+
+select {
     background-color: white;
     border-radius: 5px;
     padding: 0.2em 0.5em;
@@ -31,22 +34,51 @@ select{
     border-color: #007bff;
     color: #007bff;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    }
-    h1 {
-        margin: 0; 
-        color: white;
-        font-size: 1.5em;
-        font-family: 'Premier League', sans-serif; 
-        
-      }
-     #svg-container{
-        border: 2px solid;
-        border-color: #007bff;
-        border-radius: 10px;
-        margin-top: 4em;
-        background-color: white;
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-     }
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Premier League', sans-serif;
+
+}
+#sortButton{
+    position: absolute;
+    right: 6em;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.2em 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 0.5em;
+    border: 2px solid;
+    border-color: #007bff;
+    color: #007bff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    top: 0.5em;
+    
+   
+}
+
+#svg-container {
+    border: 2px solid;
+    border-color: #007bff;
+    border-radius: 10px;
+    margin-top: 4em;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#svg-container2 {
+    border: 2px solid;
+    border-color: #007bff;
+    border-radius: 10px;
+    margin-top: 4em;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
 #barChart {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -59,7 +91,7 @@ select{
 
 .axis {
     font-size: 1em;
-    fill: black; 
+    fill: black;
 }
 
 .axis path,
@@ -101,4 +133,32 @@ select{
     color: #007bff;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     border-radius: 4px;
+}
+#submitYear{
+   position: relative;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.2em 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 0.5em;
+    margin-right:0.5em;
+    border: 2px solid;
+    border-color: #007bff;
+    color: #007bff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    top: 5em;
+}
+#yearInput{
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.2em 0.5em;
+    font-size: 1em;
+    margin-left: 0.5em;
+    border: 2px solid;
+    border-color: #007bff;
+    color: #007bff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    top: 5em;
 }
